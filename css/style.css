@@ -61,6 +61,21 @@ padding: 0 1em;
 
 /* /buttons */
 
+/* checkmark */
+.checkmark-container {
+  display: inline-block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+
 
 /* sections */
 
@@ -69,8 +84,10 @@ padding: 0 1em;
   max-width: 1200px;
 }
 
+/* first section */
+
+
 .first-section {
-  width: 100%;
   background-color: #b4d0e7;
 }
 
@@ -101,4 +118,23 @@ padding: 0 1em;
 .first-section-image img {
   margin-bottom: -430px;
   max-width: 100%;
+}
+
+
+/* /first-section */
+
+/* second section */
+
+.second-section {
+  padding-top: 8em;
+}
+
+.plan-section {
+  display: flex;
+  justify-content: space-between;
+}
+
+.plan-container {
+  width: 30%;
+  border: 1px solid black;
 }
