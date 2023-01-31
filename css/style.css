@@ -79,9 +79,14 @@ padding: 0 1em;
 
 /* sections */
 
-.centered-section {
+.centered-header {
   margin: 0 auto;
   max-width: 1200px;
+}
+
+.centered-section {
+  margin: 0 auto;
+  max-width: 1000px;
 }
 
 /* first section */
@@ -127,6 +132,11 @@ padding: 0 1em;
 
 .second-section {
   padding-top: 8em;
+}
+
+.second-section h2 {
+  font-size: 2em;
+  margin-bottom: 1em;
 }
 
 .plan-section {
