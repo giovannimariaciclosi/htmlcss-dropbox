@@ -139,16 +139,32 @@ padding: 0 1em;
   margin-bottom: 1em;
 }
 
+.checkmark {
+  margin-bottom: 2em;
+}
+
+.checkmark span {
+  margin-right: 2em;
+}
+
+.plan-body {
+  padding: 1.5em;
+}
+
 .plan-section {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
 /* pro plans */
 
 .plan-container {
   width: 30%;
+  flex-grow: 1;
   border: 1px solid #d6d6d9;
+  margin-bottom: 2em;
 }
 
 .plan-name {
@@ -164,7 +180,7 @@ padding: 0 1em;
   display: flex;
   flex-direction: column;
   gap: 1em;
-  padding: 2em;
+  margin-bottom: 3em;
 }
 
 .plan-price h3 {
@@ -178,8 +194,8 @@ padding: 0 1em;
 .plan-specs {
   display: flex;
   flex-direction: column;
-  padding: 2em;
   gap: 1em;
+  margin-bottom: 3em;
 }
 
 .plan-specs-segment {
@@ -187,3 +203,50 @@ padding: 0 1em;
   align-items: flex-start;
   gap: 0.5em;
 }
+
+.plan-body button {
+  width: 100%;
+  margin-bottom: 3em;
+}
+
+.plan-body hr {
+  width: 50px;
+  margin: 3em 0;
+}
+
+.fa-check {
+  color: #005eff;
+}
+
+.plan-body .subtitle {
+  margin-bottom: 2em;
+}
+
+/* colonna plan team */
+
+.team-body {
+  display: flex;
+  padding: 2em;
+}
+
+.team-right {
+  flex-basis: 30%;
+}
+
+.team-right button {
+  white-space: nowrap;
+  width: 100%;
+}
+
+.team-left h3 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.team-left p {
+  margin-top: 3em;
+}
+
+/* /colonna plan team */
+
+
