@@ -254,6 +254,8 @@ padding: 0 1em;
 
 /* /colonna plan team */
 
+/* /second section */
+
 
 /* third section */
 .third-section-container {
@@ -280,3 +282,36 @@ padding: 0 1em;
 .third-section-right p {
   margin-bottom: 1em;
 }
+/* /third section */
+
+
+/* fourth-section */
+
+.fourth-section h2 {
+  margin-top: 6em;
+  font-size: 2em;
+  margin-bottom: 2em;
+}
+
+.fourth-section-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 1em;
+}
+
+.fourth-section-inner {
+  width: 30%;
+  margin-bottom: 2em;
+}
+
+.fourth-section-inner img {
+  width: 100%;
+}
+
+.fourth-section-inner h3 {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+/* /fourth-section */
