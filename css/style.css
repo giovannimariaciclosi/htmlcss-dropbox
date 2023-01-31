@@ -440,9 +440,8 @@ padding: 0 1em;
 .sixth-section-container {
   display: flex;
   padding: 6em 0;
-  justify-content: center;
+  justify-content: space-between;
   align-items: baseline;
-  gap: 7em;
 }
 
 .sixth-section-left {
@@ -462,5 +461,8 @@ padding: 0 1em;
 /* /sixth-section */
 
 /* faq */
-
+.faq h2 {
+  font-size: 2em;
+  margin-bottom: 2em;
+}
 /* /faq */
