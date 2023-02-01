@@ -386,9 +386,18 @@ padding: 0 1em;
   filter: invert(100%);
 }
 
+
+/* hover */
+.featured-square:hover {
+  border: 15px solid rgba(255, 255, 255, 0.5);
+  cursor: pointer;
+}
+/* /hover */
+
+
 .left-top-left {
   background-color: #a2d39b;
-  border: 15px solid #D1E9CD;
+  /* border: 15px solid #D1E9CD; */
 }
 
 .left-top-right {
