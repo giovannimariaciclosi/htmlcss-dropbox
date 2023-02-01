@@ -336,12 +336,11 @@ padding: 0 1em;
 .featured {
   margin-top: 6em;
   display: flex;
-  width: 100vw;
 }
 
-.featured-left {
+.featured-left, .featured-right {
   width: calc(100vw / 3);
-  height: 60vh ;
+  height: calc(100vw /3);
   display: flex;
   flex-wrap: wrap;
 }
@@ -349,9 +348,8 @@ padding: 0 1em;
 .featured-center {
   display: flex;
   flex-direction: column;
-  max-width: calc(100vw / 3);
-  height: 60vh ;
-  flex-grow: 1;
+  width: calc(100% / 3);
+  height: calc(100vw /3);
   padding: 3em;
   background-color: #f5f5f5;
   overflow-y: auto;
@@ -373,13 +371,6 @@ padding: 0 1em;
 
 .featured-center span{
   margin-bottom: 6em;
- }
-
-.featured-right {
-  width: calc(100vw / 3);
-  height: 60vh ;
-  display: flex;
-  flex-wrap: wrap;
  }
 
 .featured-square {
