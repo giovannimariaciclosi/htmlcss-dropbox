@@ -509,6 +509,7 @@ padding: 0 1em;
 .faq-container:hover .faq-answer {
   display: flex;
   justify-content: space-between;
+  cursor: pointer;
 }
 
 .faq-container:hover .fa-chevron-down {
@@ -516,6 +517,8 @@ padding: 0 1em;
 }
 
 /* /hover */
+
+
 /* /faq */
 
 /* footer */
@@ -548,6 +551,14 @@ footer {
 .footer-top li {
   padding-bottom: 0.8em;
 }
+
+/* hover */
+.footer-top li:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+/* /hover */
 
 .footer-bottom {
   padding-bottom: 3em;
