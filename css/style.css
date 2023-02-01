@@ -18,7 +18,6 @@ main  {
 
 #navbar-container {
 position: fixed;
-min-height: 80px;
 width: 100%;
 display: flex;
 justify-content: space-between;
@@ -44,6 +43,22 @@ padding: 0 1em;
   gap: 1em;
   align-items: center;
 }
+
+/* hover */
+
+
+#navbar-container li {
+  padding: 1.8em 0;
+}
+
+
+#navbar-container li:hover {
+  cursor: pointer;
+  border-bottom: 4px solid #0061ff;
+  border-radius: 4px;
+  color: grey;
+}
+/* /hover */
 
 /* header */
 
